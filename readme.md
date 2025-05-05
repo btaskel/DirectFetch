@@ -14,3 +14,8 @@ DirectFetch 可以在无需使用代理软件的情况下下载特定文件。
     1. 下载 DirectFetch Releases
     2. 在 config.json 中将 target_url 更改为你要下载的文件地址
     3. 运行 DirectFetch.exe
+
+#### 编译：
+    1. go mod tidy
+    2. go build
+    3. .\DirectFetch.exe
